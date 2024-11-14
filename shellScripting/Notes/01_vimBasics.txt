@@ -1,0 +1,34 @@
+#!/bin/bash 
+
+echo "Hello, Atharva"
+
+(The #!/bin/bash line specifies that this script should be interpreted using bash.
+The # symbol is used for comments in bash scripts.)
+
+Commands:
+1] Open vi editor: Open a terminal and type vi script.sh to create a new file named script.sh using vi.
+
+2] Switch to insert mode: Press i on your keyboard to enter insert mode. This allows you to start typing text into the file.
+
+3] Write your script: Type your bash script.
+
+4] Save the file: Once you have finished writing your script, press esc to exit insert mode.
+
+5] Save and exit: Type :wq (colon followed by w for write and q for quit) and press Enter to save your changes and exit vi.
+
+6] Make the script executable: In the terminal, make the script executable using the command chmod +x script.sh.
+
+7] Run the script: Finally, execute your script with :-
+     	./script.sh
+     	/path/script.sh
+     	bash script.sh
+
+Additional vi Commands:
+
+    1] Navigation: Use arrow keys or h, j, k, l to navigate.
+    2] Delete: Press x to delete characters.
+    3] Undo: Type u to undo the last change.
+    4] Search: Use / followed by a search term to find text in the 	 file (n to find next occurrence).
+    5] Copy, Cut, Paste: These operations are a bit more complex in vi, involving commands like yy (yank/copy), dd (delete/cut), and p (paste).
+    
+    

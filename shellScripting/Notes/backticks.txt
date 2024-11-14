@@ -1,0 +1,1 @@
+the backticks (`commands`) are used to perform command substitution. This means that the shell will execute the command inside the backticks and replace it with the output of that command

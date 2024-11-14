@@ -1,0 +1,13 @@
+how to run pthread.h library Codes
+
+gcc a.c -o a -lpthread
+./a
+
+
+
+The -lpthread option is used when compiling a program that utilizes the POSIX Threads (Pthreads) library in C or C++. Here’s why you need it and what it does:
+
+1. Linking with the Pthreads Library
+Library Linking: When you compile a program that calls functions from the Pthreads library, the compiler needs to link your program with the appropriate library that contains the implementation of those functions.
+Dynamic Linking: The -lpthread flag tells the linker to include the Pthreads library, allowing the program to use threading features like creating threads, mutexes, condition variables, etc.
+

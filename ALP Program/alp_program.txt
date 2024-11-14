@@ -1,0 +1,3 @@
+MOV A, 10
+ADD B, A
+SUB C, 5

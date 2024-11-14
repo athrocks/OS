@@ -1,0 +1,5 @@
+Hello, this is a test file.
+It contains several lines of text.
+This file will be copied character by character and line by line.
+Each line contains some content for demonstration purposes.
+Enjoy coding!
