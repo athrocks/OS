@@ -23,33 +23,30 @@ This repository contains a collection of Operating Systems (OS) lab programs and
 ## How to Use
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/athrocks/OS.git
-   cd OS
+```bash
+git clone https://github.com/athrocks/OS.git
+cd OS
+```
 
 2. Navigate to any directory and compile the C programs:
-
+```bash
 gcc filename.c -o outputname -lpthread
 ./outputname
-
+```
 
 3. For shell scripts, provide execute permission and run:
-
+```bash
 chmod +x script.sh
 ./script.sh
-
+```
 
 
 Requirements
 
-GCC Compiler (for C programs)
+- GCC Compiler (for C programs)
 
-Bash (for shell scripts)
+- Bash (for shell scripts)
 
-Linux-based OS recommended for compatibility
+- Linux-based OS recommended for compatibility
 
-
-License
-
-This project is for educational purposes only. Feel free to use and modify the code with proper attribution.
 ---
